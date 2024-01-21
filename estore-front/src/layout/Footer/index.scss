@@ -1,0 +1,94 @@
+footer {
+    padding: 120px 0px 0px 0px;
+
+    .footer_container {
+        max-width: 1200px;
+        margin: auto;
+
+        .footer_content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 100px;
+            .footer_logo {
+                width: 23%;
+
+                p {
+                    color: #868c98;
+                    font-size: 16px;
+                }
+            }
+
+            .quick {
+                width: 18%;
+
+                h3 {
+                    font-size: 20px;
+                    color: #000000;
+                }
+
+                ul {
+                    li {
+                        color: #868c98;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+        .copyright{
+            display: flex;
+            align-items: center;
+            padding-bottom: 30px;
+            justify-content: space-between;
+            .footer_icons{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                i{
+                    font-size: 14px;
+                    color: #222222;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px){
+    footer {
+        .footer_container {
+            max-width: 1200px;
+            margin: auto;
+            .footer_content {
+                flex-direction: column;
+                gap: 30px;
+                .footer_logo {
+                    width: 80%;
+                }
+    
+                .quick {
+                    width: 80%;
+    
+                    h3 {
+                        font-size: 20px;
+                        color: #000000;
+                    }
+    
+                    ul {
+                        li {
+                            color: #868c98;
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+            .copyright{
+                flex-direction: column;
+                p{
+                    font-size: 16px;
+                    width: 80%;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}

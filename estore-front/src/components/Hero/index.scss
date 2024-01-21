@@ -1,0 +1,56 @@
+#hero{
+    background-image: url("https://preview.colorlib.com/theme/estore/assets/img/hero/h1_hero.jpg");
+    padding-top: 100px ;
+    .hero_container{
+        max-width: 1200px;
+        margin: auto;
+        .hero_content{
+            display: flex;
+            align-items: center;
+            .hero_text{
+                p{
+                    font-size: 40px;
+                    color: #2577fd;
+                }
+                h1{
+                    font-size: 100px;
+                    color: #1f2022;
+                }
+                button{
+                    padding: 15px 40px;
+                    background-color: #2577fd;
+                    color: #ffff;
+                    font-size: 18px;
+                    border-radius: 25px;
+                    cursor: pointer;
+                    border: none;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 320px) and (max-width: 768px){
+    #hero{
+        padding: 100px ;
+        .hero_container{
+            .hero_content{
+                flex-direction: column;
+                img{
+                    display: none;
+                }
+                .hero_text{
+                    p{
+                        font-size: 25px;
+                    }
+                    h1{
+                        font-size: 48px;
+                    }
+                    button{
+                        padding: 5px 20px;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}

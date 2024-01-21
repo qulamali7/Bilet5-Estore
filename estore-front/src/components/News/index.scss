@@ -1,0 +1,75 @@
+#news {
+    padding: 120px 0px;
+
+    .news_container {
+        max-width: 90%;
+        margin: auto;
+
+        .news_content {
+            min-height: 400px;
+            background-image: url("https://preview.colorlib.com/theme/estore/assets/img/collection/latest-offer.png");
+            background-repeat: no-repeat;
+            position: relative;
+
+            .news_img {
+                padding: 30px;
+            }
+
+            .news_text {
+                position: absolute;
+                top: 30%;
+                left: 35%;
+                h2 {
+                    font-size: 45px;
+                    color: #000000;
+                }
+
+                p {
+                    font-size: 20px;
+                    color: #373b41;
+                }
+            }
+        }
+
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px){
+    #news {
+        .news_container {
+            max-width: 90%;
+            margin: auto;
+            .news_content {
+                min-height: 400px;
+                background-image: url("https://preview.colorlib.com/theme/estore/assets/img/collection/latest-offer.png");
+                background-repeat: no-repeat;
+                position: relative;
+                .news_img {
+                    padding: 30px;
+                    
+                    img{
+                        display: none;
+                    }
+                }
+    
+                .news_text {
+                    position: absolute;
+                    top: 80px;
+                    left: 30px;
+                    width: 80%;
+                    h2 {
+                        font-size: 35px;
+                        color: #000000;
+                    }
+    
+                    p {
+                        font-size: 18px;
+                        color: #373b41;
+                    }
+                }
+            }
+    
+        }
+    }
+    
+}

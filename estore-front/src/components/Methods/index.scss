@@ -1,0 +1,70 @@
+#method {
+    padding: 120px 0px;
+
+    .method_container {
+        max-width: 1200px;
+        margin: auto;
+
+        .method_content {
+            .method_cards {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 20px;
+
+                .method_card {
+                    width: 22%;
+
+                    i {
+                        font-size: 40px;
+                        color: #282828;
+                        margin-bottom: 25px;
+                    }
+
+                    h3 {
+                        font-size: 20px;
+                        color: #282828;
+                        margin-bottom: 15px;
+                    }
+
+                    p {
+                        font-size: 16px;
+                        color: #506172;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px){
+    #method {
+        padding: 120px 0px;
+    
+        .method_container {
+            max-width: 1200px;
+            margin: auto;
+    
+            .method_content {
+                .method_cards {
+                    flex-direction: column;
+                    .method_card {
+                        width: 80%;
+    
+                        i {
+                            font-size: 40px;
+                        }
+    
+                        h3 {
+                            font-size: 20px;
+                        }
+    
+                        p {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
